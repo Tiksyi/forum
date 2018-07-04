@@ -27,12 +27,12 @@ public class UtilisateurPrincipal implements UserDetails {
 
     @Override
     public String getPassword() {
-	return utilisateur.getMotDePasse();
+	return utilisateur.getMdp();
     }
 
     @Override
     public String getUsername() {
-	return utilisateur.getEmail();
+	return utilisateur.getPseudo();
     }
 
     @Override
