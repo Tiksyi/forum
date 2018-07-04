@@ -1,4 +1,4 @@
-package fr.formation.controllers;
+package forum.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

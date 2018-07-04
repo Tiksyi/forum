@@ -1,4 +1,4 @@
-package fr.formation.config;
+package forum.config;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 
