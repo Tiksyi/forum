@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<title><spring:message code="login.title" /></title>
+<title>test</title>
 <link href="<c:url value="/static/css/styles.css" />" rel="stylesheet">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
