@@ -17,7 +17,7 @@ import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module;
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module.Feature;
 
 @Configuration
-@Import(value = { AppConfig.class, SecurityConfig.class })
+@Import(value = { AppConfig.class })//, SecurityConfig.class
 @EnableWebMvc
 @ComponentScan(basePackages = { "forum.controllers",
 	"forum.restcontrollers" })
