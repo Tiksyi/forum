@@ -2,7 +2,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <title><spring:message code="login.title" /></title>
 <link href="<c:url value="/static/css/styles.css" />" rel="stylesheet">
