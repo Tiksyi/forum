@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import forum.dao.IUtilisateurDAO;
+
 
 @Controller
 @Transactional
@@ -20,7 +22,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class InternauteController {
 
 	 @Autowired
-	 private InternauteJpaRepository internauteJpaRepository;
+	 private IUtilisateurDAO internauteJpaRepository;
 	 
 	 @RequestMapping("/accueil")
 	    public String hello(Model model) {
